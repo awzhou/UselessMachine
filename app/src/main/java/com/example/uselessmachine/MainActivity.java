@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onTick(long millisUntilFinished) {
                 if(!switchUseless.isChecked()) {
                     //Log.d(TAG, "onTick: cancelling");
+                    cancel();
                 }
             }
 
